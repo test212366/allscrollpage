@@ -1,0 +1,23 @@
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    scroll-snap-align: start;
+}
+.container {
+    overflow-y: scroll;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+.one {
+    background-color: red;
+}
+.two {
+    background-color: yellow;
+}
+.tree {
+    background-color: green;
+}
+/* можно сделать с помощью swiper сайдера будет смотреться немного лучше
